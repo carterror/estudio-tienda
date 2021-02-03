@@ -1,0 +1,68 @@
+body
+    background: rgba(71, 186, 205, 0.70);
+    background: -webkit-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: -o-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: -moz-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: linear-gradient(to left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1))
+    font-size: 16px
+    color #fff
+    margin 0px
+    align-items: center
+    display flex
+    min-height: 100vh
+    justify-content: center
+    .box
+        background-color rgba(0, 0, 0, 0.40)
+        border-radius: 8px 8px 0px 0px
+        position: absolute
+        width 500px
+        border-bottom: 2px solid rgba(71, 186, 205,1);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .7) !important
+        .btn-success
+            background-color rgba(71, 186, 205,1);
+            width 100%
+            border: 0px
+        .form-control
+        &:focus
+        &:active
+            outline none
+            box-shadow none
+        #show
+            color  rgba(71, 186, 205,1);
+            transition: .3s
+            &:hover
+                cursor: pointer
+                color  rgba(71, 186, 205,.70);
+        #showc
+            color  rgba(71, 186, 205,1);
+            transition: .3s
+            &:hover
+                cursor: pointer
+                color  rgba(71, 186, 205,.70);
+.mtop16
+    margin-top 16px
+
+.inside
+    padding: 16px
+.header
+    border-radius: 8px 8px 0px 0px
+    border-bottom: 1px solid #fff
+    a 
+        img 
+            border-radius: 8px 8px 0px 0px
+            display block
+            padding: 20px
+            margin 0px auto
+            width: 90%
+
+.footer
+    text-align: center
+    a 
+        display: inline-block
+        font-size: .9em
+        color #fff
+        &:last-child
+            margin-left: 25px
+@media only screen and (max-width 600px)
+    .box
+        width: 85% !important

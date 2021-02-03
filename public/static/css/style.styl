@@ -1,0 +1,450 @@
+color1 = #47bacd;
+color1h = #3b9eaf;
+color2 = #e17227;
+color2h = #e17227;
+body 
+    z-index 2
+    background-color: #f9f9f9
+    font-size: 16px
+.mtop16
+    margin-top: 16px
+.mtop32
+    margin-top: 32px
+.mb16
+    margin-bottom: 16px
+.text-final-linea
+    word-break: break-all
+    hyphens: auto
+nav 
+    background: rgba(71, 186, 205, 0.70);
+    background: -webkit-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: -o-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: -moz-linear-gradient(left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    background: linear-gradient(to left, rgba(71, 186, 205, .30), rgba(71, 186, 205, 1));
+    border-bottom: 2px solid color2
+    z-index 99999
+    .container-fluid
+        .navbar-brand
+            padding: 0px 1px
+            img 
+                width: 150px
+        .collapse
+            .navbar-nav
+                li.nav-item
+                    a.nav-link
+                        border-radius: 4px
+                        font-size: .9em
+                        font-weight: bold
+                        margin-right: 4px
+                        padding 5px 16px !important
+                    a.btn
+                        background-color:  rgba(71, 186, 205, 0.70)
+                        &:hover
+                            background-color:  rgba(71, 186, 205, 1)
+                            color: #fff
+                li.link-acc
+                    overflow hidden
+                    a
+                        display block
+                        float left
+                        margin-right: 0px !important
+                        &:last-child
+                            border-radius: 0px 4px 4px 0px
+                            border-left: .5px solid #fff
+                        &:first-child
+                            border-radius: 4px 0px 0px 4px
+                            border-right: .5px solid #fff
+                        img 
+                            position relative
+                            top -.3px
+                            margin-right: 5px
+                            width: 25px
+                            border-radius: 2px
+                li.link-user
+                    overflow initial
+                    .dropdown-menu
+                        top: 37px
+                        right 20px
+                        background-color: rgba(71, 186, 205, .70);
+                        border-bottom: 3px solid rgba(71, 186, 205, 1)
+                        border-radius: 0px 0px 5px 5px
+                        .dropdown-item
+                            transition: .4s
+                            a
+                            transition: .4s
+                        #logout
+                            border-top: 4px solid rgba(71, 186, 205, 1) !important
+                    a
+                        border 0px !important
+.wrapper
+    z-index 2
+    background-color: #f9f9f9
+    .panel
+        background-color: #fff
+        border-radius: 5px
+        border-bottom: 2px solid #47bacd;
+        width 100%
+        .header
+            border-bottom 1px solid #e8e8e8
+            h2.title
+                display inline-block
+                color #19213d
+                font-size: 1.1em
+                margin-bottom: 0px !important
+                padding: 10px 15px
+                margin-left: 5px
+            ul 
+                display inline-block
+                float right 
+                margin-right: 110px
+                li 
+                    display inline-block
+                    transition: .4s
+                    position relative
+                    a
+                        display inline-block
+                        padding: 10px
+                        transition: .4s
+                        &:hover
+                            background-color: rgba(0,0,0,.10)
+                            text-decoration: none;
+                            color: #222
+                            cursor pointer
+                    ul
+                        display: none
+                        background-color: #fff
+                        transition: .4s
+                        float: none
+                        position absolute
+                        width: 200px
+                        box-shadow: 2px 5px 5px rgba(0,0,0,.50)
+                        border-radius: 5px
+                        li 
+                            display: inline-block
+                            border-bottom: 1px solid #f0f0f0
+                            width: 100%
+                            transition: .4s
+                            font-size: 1em
+                            padding: 4px
+                            &:last-child
+                                border-bottom: 0px
+                            a
+                                display block
+                    &:hover
+                        ul
+                            display block
+        .inside
+            padding: 16px
+            .paginate
+                a[rel = 'next']
+                   font-size: 25px
+                   padding: 1px 10px
+                a[rel = 'prev']
+                   font-size: 25px
+                   padding: 1px 10px
+            .nav
+                .nav-link
+                    border: 1px solid  #47bacd 
+                    margin-right: 8px
+                    transition: 0.4s;
+                    &:active
+                    &:hover
+                        background-color: #47bacd
+                        color #fff
+            .big-count
+                display block
+                text-align: center
+                width: 100%
+                font-size: 2em
+            table 
+                tbody 
+                    tr    
+                        &:nth-child(odd)
+                            background-color: rgba(0,0,0,.10)
+            .edit_avatar
+                a
+                    display block
+                    position relative
+                    width: 50%
+                    margin: 0px auto
+                    transition: .4s
+                    .overlay
+                        align-items: center
+                        width: 100%
+                        height 100%
+                        transition: .4s
+                        display: flex
+                        color transparent
+                        font-size: 2em
+                        justify-content: center
+                        border-radius: 20%
+                        position: absolute
+                        &:hover
+                            background-color: rgba(0, 0, 0, .5)
+                            color #47bacd 
+                img
+                    border-radius: 20%
+                    display block
+                    width 100%
+.home_action_bar
+    padding: 2px 6px 6px 6px
+    border-radius: 4px
+    margin-top: 30px
+    .categoria
+        position relative
+        a
+            display block
+            padding: 8px
+            width: 100%
+            text-decoration: none
+            text-transform: uppercase
+            border-radius: 4px
+            transition: .8s
+            font-weight: bold
+            text-align: justify !important  
+            margin-top: 6px
+        &:hover
+            ul
+                z-index: 3
+                max-height 500px
+                li 
+                    visibility: visible
+        ul
+            background-color: #fff
+            list-style none
+            max-height 0px
+            z-index: -1
+            padding: 0px
+            overflow: auto
+            margin: 0px
+            transition: .7s
+            position absolute
+            width: 100%
+            li
+                transition: 1s
+                visibility: hidden;
+                a
+                    transition: .3s
+                    color #000
+                    background-color: #fff
+                    svg
+                        //color #000 !important
+                    span 
+                        padding-left: 5px
+                        margin-left: 4px
+                        border-left: 2px solid rgba(71, 186, 205, 0.4)
+                    &:hover
+                        color #fff
+                        background-color: color1
+    .input-group
+        position relative
+        margin-top: 6px
+        svg
+            position absolute
+            top: 13px
+            left 20px
+            z-index 10
+            color: #6c757d
+        .form-control
+            padding: 8px
+            padding-left: 30px
+            border-radius: 5px 0px 0px 5px !important
+            z-index 2
+            &:focus
+                box-shadow: none
+                border 1px solid #6c757d
+.carousel
+    padding: 0px
+    max-height 350px
+    border-radius: 50px        
+    .carousel-control-prev
+        transition: .3s 
+        border-radius: 50px
+        #prev
+            color color2
+            font-size: 3em
+            transition: .3s 
+        &:hover
+            background: -webkit-linear-gradient(left, transparent, rgba(0,0,0, .40));
+            background: -o-linear-gradient(left, transparent, rgba(0,0,0, .40));
+            background: -moz-linear-gradient(left, transparent, rgba(0,0,0, .40));
+            background: linear-gradient(to left, transparent, rgba(0,0,0, .40));
+            background-color: transparent
+            #prev
+                -ms-transform: translate(-10px,0px); /* IE 9 */
+                -webkit-transform: translate(-10px,0px); /* Safari */
+                transform: translate(-10px,0px);
+    .carousel-control-next
+        transition: .3s
+        #next
+            color color2
+            font-size: 3em
+            transition: .3s 
+        &:hover
+            background: -webkit-linear-gradient(right, transparent, rgba(0,0,0, .40));
+            background: -o-linear-gradient(right, transparent, rgba(0,0,0, .40));
+            background: -moz-linear-gradient(right, transparent, rgba(0,0,0, .40));
+            background: linear-gradient(to right, transparent, rgba(0,0,0, .40));
+            background-color: transparent
+            #next
+                -ms-transform: translate(10px,0px); /* IE 9 */
+                -webkit-transform: translate(10px,0px); /* Safari */
+                transform: translate(10px,0px);
+    .carousel-inner
+        .carousel-caption
+            position: relative;
+            overflow auto;
+            text-align: justify;
+            margin: 50px 70px;
+            padding: 0px 10px;
+            border-left: 2px solid color2;
+            max-height 200px
+            max-width 75%
+        img
+            display inline-block
+            width: 100%
+            height 100%
+            max-width 100%
+            max-height 350px
+.load_more_product
+    a
+        display block
+        width: 40%
+        margin: 0px auto;
+        text-transform: uppercase;
+.productos
+    margin-top: 20px
+    display block
+    padding: 0px
+    overflow hidden
+    width: 100%
+    .product
+        display: inline-block
+        margin-bottom: 16px
+        margin-right: 2.4%
+        position relative
+        width: 18%
+        &:nth-child(5n)
+            margin-right: 0px
+        .title
+        .img
+        .precio
+        .opcion
+            display block
+            border-radius: 4px
+            width: 100%
+        .img
+            position relative
+            overflow hidden
+            transition: .3s
+            .overlay
+                position absolute
+                display flex
+                flex 1
+                height 100%
+                display none
+                z-index 9
+                background-color: rgba(0,0,0,.4)
+                transition: .3s
+                width: 100%  
+                .btns
+                    position absolute
+                    display block
+                    width 94%
+                    left 5%
+                    bottom: 10px
+                    a
+                        display block
+                        width 30%
+                        margin-right: 2%
+                        padding: 5px
+                        font-size: .9em
+                        border-radius 5px
+                        float left
+                        text-align: center
+                        background-color: rgba(0,0,0,.6)
+                        color color2  
+                        svg 
+                            font-size: 1.4em
+            img
+                display block
+                z-index 4
+                border-radius: 4px
+                width: 100%
+                transform scale(1)
+                transition: .3s
+        .title
+            margin: 8px
+            font-size: 1.2em
+            color #111111
+        .precio
+                font-size: 1.2em
+                color: color2
+                margin: 4px
+                font-weight: bold
+        a
+            text-decoration: none
+            display block
+            position relative
+            width: 100%
+            
+        &:hover
+            .img
+                img
+                    transform scale(1.1)
+                    opacity: 0.5
+                .overlay
+                    display flex
+
+@media only screen and (max-width 750px)
+    nav.navbar
+        .navbar-nav
+            display: block !important
+            overflow hidden
+            margin-top: 10px
+            li.nav-item
+                float left
+                display block
+                width: 50%
+                margin-bottom: 10px
+                #icono
+                    font-size: 4em !important
+                span 
+                    display block
+                    font-size: 1em
+                    font-weight: normal
+                    margin: 5px
+                a.nav-link
+                    text-align: center
+            li.link-acc
+                float inline-end !important
+                width: 100%
+                .shadow
+                    background-color: none !important
+                    box-shadow: none !important
+                a
+                    text-align: center
+                    width: 100% !important
+                    font-size: 2em
+                    img
+                        width: 60px !important
+    .carousel-inner
+        .carousel-caption
+            margin: 20px 20px !important;
+            max-width 60% !important
+
+    .productos
+        margin-top: 20em
+        .product
+            display: inline-block
+            margin-bottom: 16px
+            margin-right: 2.4%
+            position relative
+            width: 31.5%
+            &:nth-child(3n)
+                margin-right: 0px
+
+
+
+
+
